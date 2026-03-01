@@ -1,7 +1,7 @@
 ---
 title: Show_Hide Player, Player Trail, & BG Effects
-weight: 347
-draft: true
+weight: 331
+draft: false
 ---
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (1-3 minutes)
 

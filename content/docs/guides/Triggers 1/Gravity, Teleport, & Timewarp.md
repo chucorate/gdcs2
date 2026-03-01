@@ -1,7 +1,7 @@
 ---
 title: Gravity, Teleport, & Timewarp
-weight: 347
-draft: true
+weight: 330
+draft: false
 ---
 {{< img src="images/GDEmotes/Icons/Clock.png" class="emote">}} **Tiny** (2-4 minutes)
 
