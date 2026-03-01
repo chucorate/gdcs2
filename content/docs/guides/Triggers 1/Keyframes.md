@@ -23,7 +23,7 @@ The keyframe system is composed of 2 different triggers:
 - The keyframe trigger, which works as a keyframe
 - The keyframe animation trigger, which applies an animation on a group of objects
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1FjNj5MYloFob3UFAXRZoJC2B5JCKoByS" >}}
 
 # 2: Basic setup
 
@@ -37,27 +37,27 @@ In order to better understand the keyframe system, we will start by creating a s
 
 When playing the level, we will notice that our object moves in the same pattern that we created using the keyframes.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1AVLqIThdrypi4VyvfRrKTrxlup9wTf0l/preview?usp=drivesdk></iframe></div>
+{{< youtube VjnQY7qQhck >}}
 
 Notes:
 - Horizontal and vertical warping is not supported in the keyframe system. Instead, the target will rotate and scale based on the theoretical rotation and scale properties of the warped keyframe:
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1JZXHq3DotIGq1fX4Dun8DBNUFHEPU-sd" >}}
 
 - Keyframes can be moved, rotated and scaled while playing the level, making keyframe animations flexible.
 
-# 3: :KeyframeObject: The Keyframe Object
+# 3: The Keyframe Object
 
 This is the actual object you use to create keyframes with. Here's the Keyframe object UI:
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1kJVHxuxqTXphswn7xuRr2lSITASGNpf1" >}}
 
 The number next to “setup keyframe” defines the order of that keyframe, with 0 being the first keyframe in an animation, 1 the second, 2 the third, and so on.
 
 The keyframe object contains many settings, which can be grouped into multiple categories.
 ## Time and Path Settings
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/17zfZBZwKEtzHzPbG3WpIhJa4gsiZwVOu" >}}
 
 The following settings modify the path of the transition.
 
@@ -71,17 +71,17 @@ The following settings are related to the transition’s duration.
 - **Ref only**: The keyframe will be used as a reference for the path to take, their time settings are ignored in both “Even” and “Dist” modes. Ref only keyframes are half transparent in the editor.
 - **Easing**: Gives an easing effect to the animation, similar to the move, rotate and scale triggers, the easing lasts from the current keyframe to the next non Ref Only keyframe.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1r_xIjy0VS9_pkwKq-pPm8jQFGkzQB7Hn" >}}
 
 - **Time**: The target will take the time specified in Duration to transition to the next keyframe.
 - **Even**: The time specified in Duration will be divided evenly between all transitions until the next non Ref Only keyframe.
 - **Dist**: The target will take the time specified in Duration to move to the next non Ref Only keyframe, rotation and scaling will act similarly to Even mode.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1wi_6e4cb90p_XmnycU7ZPn_TESylHIAq" >}}
 
 ## Full Rotation Settings
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1f7Dn-QJuZScRlQEJLr-vtivQrQE6xs93" >}}
 
 These settings affect the previous transition to this keyframe.
 
@@ -91,7 +91,7 @@ These settings affect the previous transition to this keyframe.
 
 ## Spawn Settings
 
-<div><iframe src=https://drive.google.com/file/d/164U4LjIhWFdAm4UXwmp4XfJF01gYDNLY/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/164U4LjIhWFdAm4UXwmp4XfJF01gYDNLY" >}}
 
 Keyframes can spawn Group IDs when the animated object reaches them.
 
@@ -101,7 +101,7 @@ Keyframes can spawn Group IDs when the animated object reaches them.
 
 ## Editor Related Settings
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1A76wx4V-whl7dhYO-0H3DcoQh67tG17_" >}}
 
 These settings can help with the editor workflow, like changing the appearance of keyframes inside the editor.
 
@@ -119,13 +119,13 @@ The following settings are for the Art Preview feature, these replace the defaul
 
 One useful feature of using art preview is that Keyframe animation triggers with no specified TargetID will use the AnimationID’s preview GroupID by default.
 
-# 4: :KeyframeTrigger: The Keyframe Animation Trigger
+# 4: The Keyframe Animation Trigger
 
-This is where you actually activate your animations and assign them to a group.
+ This is where you actually activate your animations and assign them to a group.
 
 Here's the UI for the first page:
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1u3T9LVehhx1G1hhOPQ7QZ0JMvEd9ZiB6" >}}
 
 The first page contains 3 textboxes for different IDs:
 
@@ -135,49 +135,49 @@ The first page contains 3 textboxes for different IDs:
 
 The second page contains value modifiers. They will be multiplied with the properties of the keyframes animation. For example, inputting 0.7 in Position X Mod on an animation moving 10 blocks in the X axis will move the target 7 blocks in the X axis.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1_grO_8K2lpD3DnEvFgJgG7iYahgU-71O" >}}
 
 # 5: Bouncing Ball Example
 
 Now that we understand how the keyframe system works, we can use it to create a more advanced animation. We will be using this bouncing ball as an example.
 
-None
+{{< youtube cX1MwHcf_vE >}}
 
 1. Create a ball using objects and give it a Group ID (in this case, it’s GID 1). Then place an object for the center and make it the GroupID Parent. In this case, it’s placed on the bottom of the ball so the squishing animation would happen while in contact with the ground.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1rGna0CkCxXzXZ6H2fOcnjEvusDurVeGN" >}}
 
 2. Place down a keyframe object. Enable curve and dist, and give it a new GroupID (in this case, it’s GID 2). Then, copy & paste this keyframe repeatedly to mark where the ball will touch the ground, and the peak of each bounce.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1wLMDzO0rPvdzXYUPogRca_fQnySPZFng" >}}
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1FTds9yZgQlfNFevRouV0R3TAoe7BEk5Y" >}}
 
 3. We can notice that the bounce peaks are not centered to the keyframe triggers. To fix this, select all peak keyframes and check Ref Only. You can also add a Ref Only keyframe after the first one to adjust the first fall curvature.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1JjaIsFQrjpZUeC7W7kX7HRuKMjDTcIAB" >}}
 
 4. We can notice that contact with the ground is smooth when the bounce should be instantaneous. The ball should jump back as soon as it touches the ground. To fix this, copy all ground keyframes (marked below as red), and give these copies Ref Only.
 
-None
+{{< youtube 2GfQxFmS8_w >}}
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1JgYcceNY2aufIC6dBDRZQ9MoX-rHXhUi" >}}
 
 5. Modify the duration and easing of the non Ref Only keyframes. I used the following values for this example:
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1BF_PaTDDDcL0J9nkAZCxASWvu6jgovea" >}}
 
 6. Now let’s add a squishing animation. Select each Ref Only keyframe in contact with the ground (marked below as pink), then scale down the Y axis, and scale up the X axis. Decrease the intensity of the effect each time.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1RXI3jq03TZY-phhzfuD-sLNV0mTLi10S" >}}
 
 7. We can now add some sound effects to our animation. Place down a SFX trigger and choose a fitting sound effect (Ball hit is used in this example). Then set the trigger as spawn triggered and multi trigger, and give it a new GroupID (in this case, it’s GID 5). Select all non Ref Only keyframes in contact with the ground (marked below as red), and write in 5 in SpawnGID.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1z1jrPGGPBvT6vb5gvfYId00QWo3YmzBq" >}}
 
 8. Place down a Keyframe animation trigger. For this example, I have 1 in Target ID and 2 in Animation Group ID.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1iUNUBOvKVN8JJnvGmGfC6aPBPZ2UWwlj" >}}
 
 We have now created a simple bouncing ball animation. You can play around with the values used to fit your needs.
 

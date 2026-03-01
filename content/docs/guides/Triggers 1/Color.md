@@ -17,15 +17,15 @@ The main Color trigger UI is the same as a color channel’s one. You have the c
 
 The only additional feature is the "Default" button, which resets the color to the original one for that color channel.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1c4ZVOWAOyMxBTki7cQ5XTRByyFT4qH2i/preview?usp=drivesdk></iframe></div>
+{{< youtube FXdh7bqOkdE >}}
 
 Blending adds colors together, while P1 and P2 colors are the player colors.
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1I90HVpFKPVIdDG5ybX-8EIjg9ASgK3Si/preview?usp=drivesdk></iframe></div>
+{{< youtube RwjVf8HNGw0 >}}
 
-The :BluePlus: lets you target special color channels, like the background.
+The {{< img src="images/GDEmotes/Buttons/+2.png" class="emote">}} lets you target special color channels, like the background.
 
-<div><iframe src=https://drive.google.com/file/d/1g1lSxwIxIJFwS53yy-KEJueyinBKa0WI/preview?usp=drivesdk></iframe></div>
+{{< youtube WjK-kQcy0N0 >}}
 
 
 
