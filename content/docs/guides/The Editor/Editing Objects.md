@@ -55,7 +55,7 @@ Here’s how to add groups:
 4. Alternatively, click P to make the object the Parent Group, which will once again be covered in the Groups guide.
 5. To delete a group, click its number in the Group Box. To remove an object from Parent Group, click its number once.
 
-{{< youtube KokRk54 >}}
+{{< youtube 6gg-KokRk54>}}
 
 # 3: Extra Tabs
 
