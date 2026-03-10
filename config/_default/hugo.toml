@@ -63,9 +63,9 @@ copyRight = "Copyright (c) 2026 Geometry Dash Creator School"
     maxAge = -1 # "30m"
 
 [taxonomies]
-#  contributor = "contributors"
-#  category = "categories"
-#  tag = "tags"
+  contributor = "contributors"
+  category = "categories"
+  tag = "tags"
 
 [permalinks]
 # blog = "/blog/:slug/"
