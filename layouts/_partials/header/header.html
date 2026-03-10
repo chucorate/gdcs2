@@ -18,7 +18,22 @@
   {{ end -}}
 
     <!-- Site title -->
-    <a class="navbar-brand me-auto me-lg-3" href="{{ relLangURL "" }}">{{ .Site.Title }}</a>
+     <header>
+      {{ with site.Params.logo.path }}
+      <a href="{{ site.Home.Permalink }}">
+        {{ with resources.Get . }}
+        <img src="{{ .RelPermalink }}" style="filter: drop-shadow(1.5px 1.5px #00000060); outline: solid white 0.1rem; border: solid black 0.1rem; border-radius: 50%;"class="largeemote" alt="{{ site.Params.logo.alt | default site.Title }}">
+        {{ else }}
+          {{ errorf "Unable to find %s in assets directory" . }}
+        {{ end }}
+      </a>
+      {{ else }}
+      <h1 class="site-title">
+        <a href="{{ site.Home.Permalink }}">{{ .Site.Title }}</a>
+      </h1>
+      {{ end }}
+    </header>
+    <!-- <a class="navbar-brand me-auto me-lg-3" href="{{ relLangURL "" }}">{{ .Site.Title }}</a> -->
 
     <!-- FlexSearch mobile -->
     {{ partial "main/showFlexSearch" . }}
