@@ -9,7 +9,7 @@
 
 ## content
 [[mounts]]
-  source = "content"
+  source = ".content-prebuild"
   target = "content"
 
 ## data
