@@ -8,17 +8,17 @@ date: 2025-03-01T00:00:00.000Z
 contributors:
   - komatic5
   - illusion2
-description: Choosing gamemodes and gameplay elements for your levels is an important process, but one which many people mess up nonetheless. This guide will prepare you to use gamemodes properly.
+description: Choosing gamemodes and gameplay elements for your levels is an
+  important process, but one which many people mess up nonetheless. This guide
+  will prepare you to use gamemodes properly.
 tags:
   - Grade 1
   - Gameplay Basics
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
-
 * Everything you do in gameplay, especially your gamemode choices, should be with a purpose.
 * Each gamemode has unique properties that allow them to function in different situations. These properties should be used to choose your gamemodes.
 * There are a lot of unique interactions between gamemodes and other gameplay objects which you can use to your advantage.
-
 {{< /callout >}}
 
 - - -
@@ -41,7 +41,7 @@ The first thing to understand with gamemodes is **their properties and how to us
 * No air control, can only be controlled on the ground
 * Jump arcs are always the same, smaller when in mini version
 * Dies when hitting the side or bottom of a block
-* Faster speeds have longer jumps
+* Faster speeds makes it jump longer 
 
 {{< img src="https://lh3.googleusercontent.com/d/1D6pKF9VB00QZU0PVsuzQi-5yfaign5Hc" >}}
 
@@ -100,7 +100,7 @@ The Ball isn’t as snappy as the Cube, but it’s still relatively fast. It’s
 
 * Click to jump midair
 * Has air control
-* Jump arcs are always the same, smaller when mini
+* Jump arcs are always the same, but smaller when mini
 * Dies when hitting the side of a block
 * Jumps go farther as speed increases
 
@@ -119,7 +119,7 @@ This is the most snappy air gamemode, apart from Wave which is a whole other sto
 
 * Hold to fly diagonally up, release to fly diagonally down
 * Has air control
-* Travels in a straight 45* line every time, steeper in mini
+* Travels in a straight 45° line in normal size, and roughly 63.43° in mini size.
 * Dies when hitting everything except for the camera border grounds
 * Nothing changes as speed increases
 
@@ -149,7 +149,7 @@ The Robot functions similarly to the Cube, but uses holds instead. Due to this i
 
 **Pros & Cons**
 
-* Floatier, less snappy
+* Floatier, and less snappy
 * Harder to use in high-cps parts
 * Good at emphasizing long clicks
 * Micro-clicks (releasing shortly after holding) can be frustrating
@@ -189,7 +189,7 @@ The Swing is the least responsive of all the gamemodes; it will take a while for
 
 * Extremely smooth and unresponsive
 * Requires understanding of the physics and control over your gravity
-* Creates very curvy smooth gameplay
+* Creates very curvy and smooth gameplay
 
 # 3: Techniques & Interactions
 
