@@ -2,13 +2,16 @@
 draft: false
 authors:
   - komatic5
-title: Progression
+title: Pacing 2 (Progression)
 weight: 7070
 date: 2023-06-26T00:00:00.000Z
 contributors:
   - halfcookedramen
   - komatic5
-description: The last few guides have focused on how pacing works in the short term. Here, we’ll discuss how it works over the course of an entire level, and really get into the broader explanations of what makes pacing so important to the player.
+description: The last few guides have focused on how pacing works in the short
+  term. Here, we’ll discuss how it works over the course of an entire level, and
+  really get into the broader explanations of what makes pacing so important to
+  the player.
 tags:
   - Grade 2
   - Gameplay Pacing
