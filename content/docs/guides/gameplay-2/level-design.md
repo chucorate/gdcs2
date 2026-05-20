@@ -1,23 +1,28 @@
 ---
 draft: false
-title: Level Design
-weight: 7180
-date: 2025-01-14T00:00:00.000Z
-description: Level design is the process of designing and building areas, or levels, for games. This majorly influences how players will experience your map, and is a crucial part of complex gameplay. This guide will delve into the fundamentals of level design, and how you can use them to influence player behavior.
 authors:
   - intercomprehensible
+title: Game Design 1 (Level Design)
+weight: 7180
+date: 2025-01-14T00:00:00.000Z
 contributors:
   - everedeck
   - komatic5
   - illusion2
   - intercomprehensible
   - sethlai
+description: Level design is the process of designing and building areas, or
+  levels, for games. This majorly influences how players will experience your
+  map, and is a crucial part of complex gameplay. This guide will delve into the
+  fundamentals of level design, and how you can use them to influence player
+  behavior.
 tags:
   - Grade 2
   - Game Design
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 - Level Design is divided into two parts: Room Design and World Design.
 - Room Design is how you create small sections or “rooms” of gameplay. This requires an objective for the player, obstacles they must overcome to reach the objective, and a Critical Path through the room.
 - World Design is how you combine rooms to make larger areas. This is an important way to weave Pacing and Flow into your gameplay. You can also make use of design patterns and Cognitive Mapping to help players learn what’s in an area.
