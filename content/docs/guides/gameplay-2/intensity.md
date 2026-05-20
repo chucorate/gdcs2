@@ -1,14 +1,14 @@
 ---
 draft: false
-title: Intensity
-weight: 7110
-date: 2024-03-11T00:00:00.000Z
-description: This guide explains what intensity is and how to develop it using progression.
 authors:
   - tdp9
+title: Pacing 5 (Intensity)
+weight: 7110
+date: 2024-03-11T00:00:00.000Z
 contributors:
   - notamoderatr
   - tdp9
+description: This guide explains what intensity is and how to develop it using progression.
 tags:
   - Grade 2
   - Gameplay Pacing
