@@ -1,20 +1,25 @@
 ---
 draft: false
-title: Sound Design in GD
-weight: 7220
-date: 2024-09-06T00:00:00.000Z
-description: Making sound effects to include in your level will make the experience much more immersive. This guide will explain how to find sound effects to fit your level.
 authors:
   - electrifyxd
+title: Sound Design 1 (Basics)
+weight: 7220
+date: 2024-09-06T00:00:00.000Z
 contributors:
   - electrifyxd
   - psytrancegd
+description: Making sound effects to include in your level will make the
+  experience much more immersive. This guide will explain how to find sound
+  effects to fit your level.
 tags:
   - Grade 2
   - Sound Design
+seo:
+  title: How Sound Effects Make Geometry Dash Better
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 - Sound design is an important concept behind making custom sounds for levels
 - To add fully custom sounds, you can upload sounds to the Newgrounds platform if you have an eligible account
 - Another way to use interesting sounds is with the in-game sound library and the SFX trigger
