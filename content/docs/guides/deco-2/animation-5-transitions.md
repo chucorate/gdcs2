@@ -63,7 +63,6 @@ In STARPUNK by Ferdefunky, the cube transitions to the ball part with some minor
 {{< img src="https://lh3.googleusercontent.com/d/1iyxqhiJB9y5hbbaHOoy-sCmSpU9nT92l" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1A-njMiM3hdQqBJGTWAqtAkMcnMvr8KsU" >}}
-
 {{< /img-grid >}}
 
 Beachie’s intro for this example has the song starting out with this glitchy voice that speaks backwards, hence used both chromatic glitch and the glitch shader to convey that voice. Once the music starts playing, that's when the colors cut into place starting the level.
@@ -80,28 +79,35 @@ Fades provide the most gentle tone in transitions which makes them an excellent 
 
 {{< callout context="note" title="Key Message: Delay." icon="outline/info-circle" >}}
 
-
 * Fades need time to work. They don't work well with fast, abrupt transitions, but if you need a smooth change they are often the simplest option.
-
-
 {{< /callout >}}
 
 {{< callout context="note" title="Factors to Consider:" icon="outline/info-circle" >}}
 
-
 1. Frequency of fades
 2. Time taken to complete the transition
-
 
 {{< /callout >}}
 
 ## Example
 
-[Stargaze](https://youtu.be/sgbl2hnOS5A?si=dz21Er3w7ciB6Uns) by Miracatsy & GDLudvigg introduces the level with a black overlay that slowly fades out showing the scene. This fits excellently because the song hasn’t started yet and it gives expectations to the relaxing atmosphere in the upcoming parts. Arguably, using a fading black screen for this case provides a solid narrative detail.
+Stargaze by Miracatsy & GDLudvigg introduces the level with a black overlay that slowly fades out showing the scene. This fits excellently because the song hasn’t started yet and it gives expectations to the relaxing atmosphere in the upcoming parts. Arguably, using a fading black screen for this case provides a solid narrative detail.
 
-[Stereo Madness](https://youtu.be/hI8AoSVkScA?si=-01FYyVFl8GWmJ_d&t=24) also does a fade before entering the first ship section as a form of anticipation. It goes to show how these transitions are made in older updates considering its limitations.
+{{< img src="https://lh3.googleusercontent.com/d/1IBK0f9aF0ZJGDtPsYA6syl0LjgTph8Bf" >}}
 
-In contrast, [PXTTXRN SXXKXR](https://youtu.be/e9iIZMfUg94?si=JIDLncwx93RDKTul&t=13) by Viot uses a black overlay and a quicker fade time before going straight to the drop.
+{{< youtube id="sgbl2hnOS5A" >}}
+
+Stereo Madness also does a fade before entering the first ship section as a form of anticipation. It goes to show how these transitions are made in older updates considering the limitations.
+
+{{< img src="https://lh3.googleusercontent.com/d/1C3X7nAlmmyyOhnZ87pJsaZGpWMXrqrYc" >}}
+
+{{< youtube id="sgbl2hnOS5A" start="24" >}}
+
+In contrast, PXTTXRN SXXKXR by Viot uses a black overlay and a quicker fade time before going straight to the drop.
+
+{{< img src="https://lh3.googleusercontent.com/d/1AxE7fKcMjCaYYAtqEtTHGZpUvsadwngV" >}}
+
+{{< youtube id="e9iIZMfUg94" start="13" >}}
 
 # 3: Screen Wipes
 
@@ -121,11 +127,17 @@ Factors to consider:
 
 ## Example
 
-[Virtualization](https://youtu.be/9Hl7ZlVAwm4?si=2ZVf6rr9JOFjP8gp&t=28) by Splinter25 has a vertical screen wipe where a white overlay moves downwards to show the UFO section.
+Virtualization by Splinter25 has a vertical screen wipe where a white overlay moves downwards to show the UFO section.
 
-[STARGAZE](https://youtu.be/HxzcrtNtYw0?si=7VjS_aSTxT2wK8JN&t=65)’s drop section has a vertical screen wipe with circle objects that descend in size in its edges. The same wipe was used consistently throughout the drop section until the last climactic part of the level where the background turns white.
+{{< youtube id="9Hl7ZlVAwm4" start="28" >}}
 
-[Beachie](https://youtu.be/p4XUF_fvU5Q?si=tbqdWvqlUQib01MR&t=58) has a split screen that exits from the middle, effectively creating 2 different screen wipes, opening up the next part.
+STARGAZE’s drop section has a vertical screen wipe with circle objects that descend in size in its edges. The same wipe was used consistently throughout the drop section until the last climactic part of the level where the background turns white.
+
+{{< youtube id="HxzcrtNtYw0" start="65" >}}
+
+Beachie has a split screen that exits from the middle, effectively creating 2 different screen wipes, opening up the next part.
+
+{{< youtube id="p4XUF_fvU5Q" start="58" >}}
 
 # 4: Match Cuts
 
