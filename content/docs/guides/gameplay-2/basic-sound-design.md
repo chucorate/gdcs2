@@ -2,7 +2,7 @@
 draft: false
 authors:
   - electrifyxd
-title: Sound Design 1 (Making Sounds)
+title: Sound Design 2 (Making Sounds)
 weight: 7225
 date: 2025-03-01T00:00:00.000Z
 contributors:
@@ -13,6 +13,8 @@ description: This guide explains how you can create basic sounds using a DAW,
 tags:
   - Grade 2
   - Sound Design
+seo:
+  canonical: basic-sound-design
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
