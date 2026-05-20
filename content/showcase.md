@@ -94,3 +94,11 @@ seo:
   href="https://www.youtube.com/watch?v=h0nvNgS4wts" >}}
 
 {{< /card-grid >}}
+{{< card-grid >}}
+
+{{< link-card-img
+  title="Side Quest by xd8512"
+  image="https://img.youtube.com/vi/1PsxtqUtITE/maxresdefault.jpg"
+  href="https://www.youtube.com/watch?v=1PsxtqUtITE" >}}
+
+{{< /card-grid >}}
