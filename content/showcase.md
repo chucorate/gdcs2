@@ -58,47 +58,47 @@ seo:
 {{< card-grid >}}
 
 {{< link-card-img
+  title="Side Quest by xd8512"
+  image="https://img.youtube.com/vi/1PsxtqUtITE/maxresdefault.jpg"
+  href="https://www.youtube.com/watch?v=1PsxtqUtITE" >}}
+
+{{< link-card-img
   title="Snowsquall by ClingingBog & shynethecreator"
   image="https://img.youtube.com/vi/VRSUAuXlIgw/maxresdefault.jpg"
   href="https://www.youtube.com/watch?v=VRSUAuXlIgw" >}}
+
+{{< /card-grid >}}
+{{< card-grid >}}
 
 {{< link-card-img
   title="somewhere city by Rayquandia"
   image="https://img.youtube.com/vi/ZHrcbxCKl5c/maxresdefault.jpg"
   href="https://www.youtube.com/watch?v=ZHrcbxCKl5c" >}}
 
-{{< /card-grid >}}
-{{< card-grid >}}
-
 {{< link-card-img
   title="STARGAZE by Sparktwee"
   image="https://img.youtube.com/vi/HxzcrtNtYw0/maxresdefault.jpg"
   href="https://www.youtube.com/watch?v=HxzcrtNtYw0&feature=youtu.be" >}}
+
+{{< /card-grid >}}
+{{< card-grid >}}
 
 {{< link-card-img
   title="Strabit by MyCatsHellaFat"
   image="https://img.youtube.com/vi/uKM_POfJU5s/maxresdefault.jpg"
   href="https://youtu.be/uKM_POfJU5s" >}}
 
-{{< /card-grid >}}
-{{< card-grid >}}
-
 {{< link-card-img
   title="Tiny Troubles by Protein15"
   image="https://img.youtube.com/vi/tvMRzvPZLIE/maxresdefault.jpg"
   href="https://www.youtube.com/watch?v=tvMRzvPZLIE" >}}
 
-{{< link-card-img
-  title="Xanthesiderite by Alpheia"
-  image="https://img.youtube.com/vi/h0nvNgS4wts/maxresdefault.jpg"
-  href="https://www.youtube.com/watch?v=h0nvNgS4wts" >}}
-
 {{< /card-grid >}}
 {{< card-grid >}}
 
 {{< link-card-img
-  title="Side Quest by xd8512"
-  image="https://img.youtube.com/vi/1PsxtqUtITE/maxresdefault.jpg"
-  href="https://www.youtube.com/watch?v=1PsxtqUtITE" >}}
+  title="Xanthesiderite by Alpheia"
+  image="https://img.youtube.com/vi/h0nvNgS4wts/maxresdefault.jpg"
+  href="https://www.youtube.com/watch?v=h0nvNgS4wts" >}}
 
 {{< /card-grid >}}
