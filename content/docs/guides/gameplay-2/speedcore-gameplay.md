@@ -8,11 +8,7 @@ date: 2024-05-15T00:00:00.000Z
 contributors:
   - madzz
   - illusion2
-description: Speedcore gameplay is a genre of gameplay that’s focused on speed
-  and intensity. It is usually accompanied by a song with a high BPM. This style
-  of gameplay is heavily focused on song representation and matching the
-  atmosphere of the music. This guide will investigate the main features of
-  speedcore gameplay and how it can be accomplished.
+description: Speedcore gameplay is a genre of gameplay that’s focused on speed and intensity. It is usually accompanied by a song with a high BPM. This style of gameplay is heavily focused on song representation and matching the atmosphere of the music. This guide will investigate the main features of speedcore gameplay and how it can be accomplished.
 tags:
   - Grade 2
   - Types of Gameplay

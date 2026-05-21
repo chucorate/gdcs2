@@ -8,10 +8,7 @@ date: 2025-11-15T00:00:00.000Z
 contributors:
   - illusion2
   - sparktwee
-description: This guide explains how to use sync to develop engagement (impact
-  types, movements). Also explains what rhythm is, what goes into a good click
-  pattern (focusing on an instrument, which beats in a measure are strongest,
-  etc.), and how you can use repetition to enhance your rhythm.
+description: This guide explains how to use sync to develop engagement (impact types, movements). Also explains what rhythm is, what goes into a good click pattern (focusing on an instrument, which beats in a measure are strongest, etc.), and how you can use repetition to enhance your rhythm.
 tags:
   - Grade 2
   - Gameplay Pacing

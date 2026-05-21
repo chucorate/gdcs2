@@ -12,17 +12,13 @@ contributors:
   - print6165
   - halfcookedramen
   - komatic5
-description: As a GD creator, you actually have a lot more options for songs
-  than just the main level soundtracks. You can grab songs from Newgrounds, the
-  music library, or even use a NONG (Not On NewGrounds) such as the ones you can
-  find at https://songfilehub.com/home. Here are a couple of ways to do that.
+description: As a GD creator, you actually have a lot more options for songs than just the main level soundtracks. You can grab songs from Newgrounds, the music library, or even use a NONG (Not On NewGrounds) such as the ones you can find at https://songfilehub.com/home. Here are a couple of ways to do that.
 tags:
   - Grade 0
   - The Editor
 seo:
   title: How to Manage Songs in Geometry Dash
-  description: A short guide to choosing a song for your Geometry Dash level,
-    using Newgrounds, the Music Library, and NONG file replacement.
+  description: A short guide to choosing a song for your Geometry Dash level, using Newgrounds, the Music Library, and NONG file replacement.
   canonical: ""
   noindex: false
 ---

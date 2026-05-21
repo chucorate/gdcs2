@@ -8,14 +8,7 @@ date: 2024-09-06T00:00:00.000Z
 contributors:
   - chuckolate
   - illusion2
-description: Combat is an extremely nuanced topic with lots of important
-  concepts tied to it. This guide will help you identify what you want to do
-  with your combat, make the player want to actually fight enemies, create
-  action while they’re in a battle, design attacks to make your system fun to
-  use, encourage players to strategize in/out of combat and design enemies to
-  enhance the combat system. This guide will be somewhat oriented toward
-  real-time combat, but almost all of these concepts apply to turn-based combat
-  and strategy games too.
+description: Combat is an extremely nuanced topic with lots of important concepts tied to it. This guide will help you identify what you want to do with your combat, make the player want to actually fight enemies, create action while they’re in a battle, design attacks to make your system fun to use, encourage players to strategize in/out of combat and design enemies to enhance the combat system. This guide will be somewhat oriented toward real-time combat, but almost all of these concepts apply to turn-based combat and strategy games too.
 tags:
   - Grade 2
   - Game Design

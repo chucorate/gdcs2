@@ -4,13 +4,10 @@ authors:
   - sparktwee
 title: Animation 5 (Transitions)
 weight: 8130
-date: 2026-05-19
+date: 2026-05-19T00:00:00.000Z
 contributors:
   - sparktwee
-description: Transitions let you smoothly change the decoration in your level.
-  Good transitions can be just as interesting as the actual decoration you're
-  making. This guide will go over many types of transitions and explain how you
-  can make them.
+description: Transitions let you smoothly change the decoration in your level. Good transitions can be just as interesting as the actual decoration you're making. This guide will go over many types of transitions and explain how you can make them.
 tags:
   - Grade 2
   - Animation
