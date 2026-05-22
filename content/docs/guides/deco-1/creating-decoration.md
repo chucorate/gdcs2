@@ -1,22 +1,27 @@
 ---
 draft: false
-title: How to Decorate
-date: 2024-07-19T00:00:00.000Z
-weight: 5001
-description: Once you're familiar with the objects you use to decorate, and the types of details you can create with them, it's time to combine things to make entire levels filled with deco. This guide explains the process you should use to create deco parts, as well as the technical conventions people use to organize and classify their deco.
 authors:
   - komatic5
+title: How to Decorate
+weight: 5001
+date: 2024-07-19T00:00:00.000Z
 contributors:
   - galofuf
   - komatic5
   - notamoderatr
   - poryii
+description: Once you're familiar with the objects you use to decorate, and the
+  types of details you can create with them, it's time to combine things to make
+  entire levels filled with deco. This guide explains the process you should use
+  to create deco parts, as well as the technical conventions people use to
+  organize and classify their deco.
 tags:
   - Grade 1
   - Deco Basics
 seo:
   title: How To Decorate in Geometry Dash
-  description: Are you struggling to decorate? This guide provides a full overview of everything you must know to get started.
+  description: Are you struggling to decorate? This guide provides a full overview
+    of everything you must know to get started.
   canonical: ""
   noindex: false
 aliases:
@@ -52,24 +57,24 @@ An example of clear block designs is in the level Royal Roost Ruins by Glubfuber
 
 - Sometimes, other gameplay objects will be decorated too, such as spikes and orbs. Here, the spikes have some glow added to make them look more interesting.
 - You can read more about block designs [here](/docs/guides/deco-1/making-blocks/).
-** **
+
 
 The mountains behind the blocks in Royal Roost Ruins are part of the **Background**. These *fill up space behind the blocks* so the decoration can look more interesting.
 - It's important for your background to "feel" different from your block designs. This way, players won't be confused about what's a gameplay object and what is not.
 - **Foregrounds** also exist to *fill up space in front of blocks*. They aren't as common, but some levels make use of them. Here, some trees and rocks are intentionally darkened and used as foreground.
 - You can read more about backgrounds [here](/docs/guides/deco-1/making-backgrounds/).
-** **
+
 
 The arrows in the level are a form of **Air Deco**. While backgrounds fill space behind blocks and foregrounds fill space in front of them, air deco *fills space on the same layer as blocks*.
 - Air deco comes in many forms. Particles are one such form, but creators often use arrows, connectors between blocks, and other decoration for the same purpose.
 - You can find info on air deco [here](/docs/guides/deco-1/making-air-deco/).
-** **
+
 
 When watching a video of this level, there are many parts of the deco that move, change shape, or change color. These are **Animations**, which *make levels feel alive* instead of static.
 - Animation is a very common thing in decoration, since there are plenty of ways to go about it.
 - Most animation techniques will use [animated objects](/docs/guides/deco-1/animated-objects/), or [triggers](/docs/guides/triggers-1/trigger-intro/) to work.
 - You can find info on animations [here](/docs/guides/deco-1/making-animations/).
-** **
+
 
 Some levels use animations with optical illusions to make neat decorations that wouldn't be possible otherwise. These are **Visual Effects**, and they often create crazy visuals because of their nature.
 - Visual effects require a lot of technical knowledge. You must know how editor features like Z layers, blending, and opacity work innately.
@@ -84,7 +89,6 @@ A **style** is simply an extension of that. A decoration style is *how you make 
 
 You'll learn plenty about styles in future guides. For now, it helps to recognize some of the most basic *genres* of level you'll see:
 
-** **
 
 **Classic Design** levels use the game's objects as-is. They typically don't create custom assets from the game's objects, but try to use the existing objects in smart ways.
 
@@ -92,7 +96,6 @@ You'll learn plenty about styles in future guides. For now, it helps to recogniz
 
 {{< youtube lPoggVWbZbg >}}
 
-** **
 
 **Custom Art** levels use the game's objects to create new, custom assets. This leads to more varied levels, but is harder to do.
 
