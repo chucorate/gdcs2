@@ -21,11 +21,13 @@ tags:
 
 
 
+
 - Timing measures movement in terms of frames: slow moving objects have more frames in between while fast moving objects have less frames.
 - Slow timing usually communicates the following: delay, old age, heaviness, grace, timelessness, patience.
 - Fast timing usually communicates the following: responsiveness, youth, lightweight, flashiness, rush hour, deadlines.
 - Easing explains how these frames are spaced out. Due to how objects tend to accelerate and decelerate when they move, it also can be translated in animation: Slow In, Slow Out.
 - Within the context of Geometry Dash, some triggers are equipped with their own easings that you can choose; some of which will have more versatile use cases than others.
+
 
 
 
@@ -82,24 +84,20 @@ When choosing an easing, **think about the movement you’re trying to make**. A
 ### Easing Options
 
 1. None - Completely linear and moves in a constant velocity. Usually for robotic movements or instant movements where easings are irrelevant.
-2. {{< img-grid >}}
-
-   {{< /img-grid >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1YuQS6io6SiRjoP9pIvZSvVb2CKxbhSl8" >}}
 
 2. Ease In Out - Mildly faster velocity at the middle of the motion.
 
-{{< img src="https://lh3.googleusercontent.com/d/16TafhBKtUCQZMLwjN7FKlgI7ADbqxR57" >}}
+   {{< img-grid >}}
+   {{< img src="https://lh3.googleusercontent.com/d/16TafhBKtUCQZMLwjN7FKlgI7ADbqxR57" >}}
 
+   {{< img src="https://lh3.googleusercontent.com/d/15PDb44Gm7P_3snqOksNgYg4b2EPlvPry" >}}
+
+   {{< img src="https://lh3.googleusercontent.com/d/1-5L4pm6ojmnQLK3V4N3gl-LvQgxMRikF" >}}
+   {{< /img-grid >}}
 3. Ease In - Mildly faster velocity at the end of the motion.
-
-{{< img src="https://lh3.googleusercontent.com/d/15PDb44Gm7P_3snqOksNgYg4b2EPlvPry" >}}
-
 4. Ease Out - Mildly faster velocity at the beginning of the motion. HOWEVER, due to how this easing was coded, it won’t accurately follow the graph below, even if the difference is subtle. As an alternative, you can stack 2 different move triggers where one has the Ease In and None Easing as long as the values cancel each other.
-
-{{< img src="https://lh3.googleusercontent.com/d/1-5L4pm6ojmnQLK3V4N3gl-LvQgxMRikF" >}}
-
 5. Elastic In Out - Overshoots the  elastic velocity at the beginning and end of the motion.
 
 {{< img src="https://lh3.googleusercontent.com/d/1fapFI9kDFqkzAj6HQyHegoJ_1Agfd9ZG" >}}
@@ -168,8 +166,12 @@ You have the freedom to use easings to communicate how an object moves and behav
 
 Here we will explore many examples of timing and easing and explain them in depth.
 
-
-
 ![](https://ssb.wiki.gallery/images/thumb/0/00/GanondorfFSmashSSBU.gif/300px-GanondorfFSmashSSBU.gif "Ganondorf attack gif")
 
 Take this attack animation for example. Because the sword is extremely heavy, Ganondorf cannot swing it immediately, due to the inertia. The animation shows this by exaggerating the ease-in of the animation, to show him fighting against the sword's weight, before violently striking the ground from gravity.
+
+
+
+![](https://media1.tenor.com/m/tvWglgD9r8cAAAAd/sonic-the-hedgehog-sonic.gif "sonic slowing down")
+
+You can also take Sonic's sudden halt for example. Because he runs faster than the speed of light, he cannot just "stop moving" (Unless you break the laws of physics, of course.) That is why he goes into a dramatic sliding animation to fight his intense forward force and momentum. It mimics friction and the sudden deceleration of speed, making the viewer see how fast Sonic was before the stop.
