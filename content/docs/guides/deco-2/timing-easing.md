@@ -82,6 +82,9 @@ When choosing an easing, **think about the movement you’re trying to make**. A
 ### Easing Options
 
 1. None - Completely linear and moves in a constant velocity. Usually for robotic movements or instant movements where easings are irrelevant.
+2. {{< img-grid >}}
+
+   {{< /img-grid >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1YuQS6io6SiRjoP9pIvZSvVb2CKxbhSl8" >}}
 
@@ -162,6 +165,10 @@ You have the freedom to use easings to communicate how an object moves and behav
 {{< youtube SP9mU9VACjc >}}
 
 # 3. Examples
+
+Here we will explore many examples of timing and easing and explain them in depth.
+
+
 
 ![](https://ssb.wiki.gallery/images/thumb/0/00/GanondorfFSmashSSBU.gif/300px-GanondorfFSmashSSBU.gif "Ganondorf attack gif")
 
