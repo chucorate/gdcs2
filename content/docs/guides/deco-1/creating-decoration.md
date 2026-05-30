@@ -53,7 +53,7 @@ These are the common types of deco you'll learn to make. You don't need *every e
 
 An example of clear block designs is in the level Royal Roost Ruins by Glubfuberz. The blocks clearly stand out against the other decoration, making it clear where the gameplay is.
 
-{{< youtube id="BmDUemwIJ" end=26 >}}
+{{< youtube id="BmDUemwIJ-I" end=26 >}}
 
 - Sometimes, other gameplay objects will be decorated too, such as spikes and orbs. Here, the spikes have some glow added to make them look more interesting.
 - You can read more about block designs [here](/docs/guides/deco-1/making-blocks/).
