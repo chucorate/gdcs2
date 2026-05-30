@@ -56,31 +56,25 @@ One example of a level with good pacing would be **the second section of The Sew
 
 In this case, the player starts the autoscrolling section by clicking on a red button, causing a platform to rise and obstacles to move towards the player. From then on the player has to move quickly to avoid spikes along the bottom, jets of fire on the sides, and has to jump platforms to collect coins. Overall, the level moves at a **steady** (yet constant) **forward pace**.
 
+{{< youtube id="Wlo_aG7Jqeg" start="42" >}}
 
-
-
-![A Geometry Dash cube navigating through the vertical autoscroll section of the Sewers](/images/screenshot-2026-05-27-200313.png)
-
-
-
-Autoscrolling platformer levels are *similar* to classic levels where they can be **synced with the music**, and the song RobTop chose for this section makes it feel more **climactic**. As well as that, the intro to the second phase matches the song in a way that resembles a classic level.\
+Autoscrolling platformer levels are *similar* to classic levels where they can be **synced with the music**, and the song RobTop chose for this section makes it feel more **climactic**. As well as that, the intro to the second phase matches the song in a way that resembles a classic level.
 
 Instead of the player moving forward, the level pushes them forward, creating a sense of **urgency** as there are no pauses or resting areas.
 
 One level with an extreme sense of urgency would be the level **Loco Motive by Subwoofer**. This level's plot centers around a bomb being placed on a train, which causes limited **time restraint** to be placed on the player. Now players have to think **immediately** and make quick choices in order to combat the **constant time pressure**, creating an *extremely* rapid pace.
 
-![A Geometry Dash cube navigating across trains in the level Loco Motive.](/images/screenshot-2026-05-27-200546.png)
+{{< youtube id="Vn0ZXtji3Z0" start="22" >}}
 
-Pacing can't **just** be found in Geometry Dash. The open-world Super Mario game **Bowser's Fury** always keeps the game moving forward when Bowser causes intermittent “**fury storms**” in between gameplay sessions in which the world is coated in darkness and Bowser temporarily awakens to cause havoc.
+Pacing isn't **just** found in Geometry Dash. The open-world Super Mario game **Bowser's Fury** always keeps the game moving forward when Bowser causes intermittent “**fury storms**” in between gameplay sessions in which the world is coated in darkness and Bowser temporarily awakens to cause havoc.
 
-
-![Fury Bowser pounces on the ground during an ink storm](/images/screenshot-2026-05-27-200826.png)
-
-
+{{< youtube id="Gf-Bb2CdC6g" start="330" >}}
 
 In order to deal damage to Bowser, **progress** through the storyline, and **unlock new areas**, the player has to achieve certain amounts of **Cat Shines**, which are the main **collectibles** in the game. These methods indirectly make the player **progress naturally** and help develop the **pace** of the game.
 
 An example of a game getting more **challenging** as you get stronger is **Terraria**. Bosses later on **expect** you to have more **mobility** to dodge attacks with to match a difficulty curve, compared to early game bosses which don’t really expect anything from you.
+
+{{< youtube id="Ei9IgFnWvQI" >}}
 
 Ultimately, it is fully **your choice** on how your level's pacing ends up being upon beginning the creating process. You could always keep the player on their toes or you could put the player at their own pace with plenty of time to think and take in a situation. There are plenty of **strengths** and **drawbacks** each one, and these are important to keep in mind when designing gameplay for your levels!
 
