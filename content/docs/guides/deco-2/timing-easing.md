@@ -179,3 +179,9 @@ You can also take Sonic's sudden halt for example. Because he runs faster than t
 
 
 You can even show emotion through timing.
+
+![](https://media.tenor.com/hKhRBbx1Oi8AAAAM/squidward-squidward-meme.gif)
+
+As you can see, Squidward clearly looks happy and relaxed, as he plops into the chair with fast movement. The fast timing directly correlates to the positive energy. The quick motion and the way he "plops" onto the chair and bounces shows that he feels good, rather then it being instantaneous with a hard impact where he just plummets onto it. On the other hand, if Squidward were tired, he'd probably get on the chair slowly, instead of quickly.
+
+![](https://media1.tenor.com/m/8UmntBwQJSsAAAAd/spongebob-spongebob-squarepants.gif)
