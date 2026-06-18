@@ -20,10 +20,12 @@ tags:
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
+
 - Colors are represented by Hue, Saturation, and Value.
 - Hue is normally the Main color, Saturation is a term for how pure the color is and Value is the brightness of the color.
 - The Color Wheel contains the colors of the rainbow and can help you to decide what colors you want to use.
 - A common method to render colored objects under colored light is to locate them as points on the color wheel and connect them with a line.
+
 
 
 {{< /callout >}}
@@ -100,7 +102,7 @@ To mix the light and local colors, locate them as points on the color wheel and 
 
 {{< img src="https://lh3.googleusercontent.com/d/11sl-icW_2nf5YldHVOgHHAV3Knkec_8c" >}}
 
-The diagram above shows how you might use this method to determine the color of a blue object under a harsh yellow light (like sunlight). Drawing a line on the color wheel between two colors shows the in-between colors that would form the middle of a gradient. As you can see, when the yellow and blue hues are far apart, the line will approach the middle of the wheel This means that the distance in hue between two colors is inversely proportional to the saturation of the colors in between.
+The diagram above shows how you might use this method to determine the color of a blue object under a harsh yellow light (like sunlight). Drawing a line on the color wheel between two colors shows the in-between colors that would form the middle of a gradient. As you can see, when the yellow and blue hues are far apart, the line will approach the middle of the wheel. The midpoint between these points gets closer to the center of the wheel, and therefore less saturated.
 
 * Notice how the candidate colors in this example are not strictly yellow or blue. Rather, there is a shift of hue from the yellow to a more green-like color, and finally to the blues. Also, you should notice that there is a desaturation in color as the hue transitions from one hue to another.
 
