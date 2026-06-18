@@ -17,9 +17,11 @@ tags:
   - Effect Triggers
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 * The BG, MG, and G Change triggers let you change the background, midground, and ground in your level. You may also change the defaults for these through the Level Settings menu.
 * The BG and MG Speed triggers let you change your background and midground's speed.
 * The MG trigger also lets you change the midground's position.
+
 {{< /callout >}}
 
 - - -
@@ -70,4 +72,4 @@ You may also change the position of your level's MG using this trigger. As with 
 
 # 5: Additional BG Changes
 
-If you are bored with the default backgrounds that GD offers, you can make your own custom ones. Most art-themed levels use complex backgrounds with custom designs and movements You can learn more about decorating custom backgrounds by reading [another guide](/docs/guides/deco-1/making-backgrounds/) here.
+If you are bored with the default backgrounds that GD offers, you can make your own custom ones with unique designs and movements. You can learn more about decorating custom backgrounds by reading [another guide](/docs/guides/deco-1/making-backgrounds/) here.
