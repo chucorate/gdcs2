@@ -131,6 +131,4 @@ Another example of this is when Jiequan uses one of his Crimson Attacks, where y
 
 Finally, take a look at this attack where Jiequan throws mines at the player where they explode soon after. Unlike his quick and striking blade attacks, the mines follow unpredictable movements which can catch the player off guard. The mines themselves ease in, then start falling to the ground relatively slowly, which gives the player time to react. Instead of testing the player's reaction time, the slow timing makes the player think. It gives them time to ask themselves: "Where can I move without being hit?" This creates clear contrast due to the clear opposition in comparison to his agile strikes.
 
-
-
 Now that you know how Timing and Easing works, I highly suggest you try to implement it into any level or try playing around with it.
