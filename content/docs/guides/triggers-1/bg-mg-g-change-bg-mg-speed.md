@@ -38,9 +38,7 @@ To change any of these options, go to the {{< img src="images/GDEmotes/Buttons/S
 
 # 2: BG, MG, & G Change Triggers
 
-{{< img src="images/GDEmotes/Triggers/BGChange.png" >}}
-
- {{< img src="images/GDEmotes/Triggers/MGChange.png" class="largeemote" >}} {{< img src="images/GDEmotes/Triggers/GChange.png" class="largeemote" >}} These triggers let you change the BG, MG, and G currently in your level. Their UIs all look somewhat like this when you click go to the {{< img src="images/GDEmotes/Buttons/EditObject.png" class="emote" >}} Edit Object.
+{{< img src="images/GDEmotes/Triggers/BGChange.png" class="largeemote >}} {{< img src="images/GDEmotes/Triggers/MGChange.png" class="largeemote" >}} {{< img src="images/GDEmotes/Triggers/GChange.png" class="largeemote" >}} These triggers let you change the BG, MG, and G currently in your level. Their UIs all look somewhat like this when you click go to the {{< img src="images/GDEmotes/Buttons/EditObject.png" class="emote" >}} Edit Object.
 
 {{< img src="https://lh3.googleusercontent.com/d/1LEq4LkGM-QMV_RgkJx-hPArIky8tkdsx" >}}
 
@@ -50,9 +48,7 @@ When you click on the button in the middle, you'll be able to select a new BG, M
 
 # 3: BG & MG Speed Triggers
 
-{{< img src="images/GDEmotes/Triggers/BGSpeed.png" >}}
-
- {{< img src="images/GDEmotes/Triggers/MGSpeed.png" class="largeemote" >}} These triggers let you change the speed at which your BG and MG move.
+{{< img src="images/GDEmotes/Triggers/BGSpeed.png" class="largeemote" >}} {{< img src="images/GDEmotes/Triggers/MGSpeed.png" class="largeemote" >}} These triggers let you change the speed at which your BG and MG move.
 
 {{< img src="https://lh3.googleusercontent.com/d/12W9r6DeNBNT3k-_VbFYT4zG_valVURiz" >}}
 
