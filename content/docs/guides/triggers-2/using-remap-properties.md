@@ -1,33 +1,39 @@
 ---
 draft: false
+authors:
+  - theibra
 title: Using Remap Properties
 weight: 6040
 date: 2024-07-31T00:00:00.000Z
-description: Spawn Remapping is an incredibly useful 2.2 feature which lets you change which groups are targeted by a trigger setup, without having to copy-paste all of the triggers. However it also has many hidden properties which make it even more useful. This guide will explain those features and show some of their use cases.
-authors:
-  - theibra
-contributors:
-  - komatic5
-  - theibra
+description: Spawn Remapping is an incredibly useful 2.2 feature which lets you
+  change which groups are targeted by a trigger setup, without having to
+  copy-paste all of the triggers. However it also has many hidden properties
+  which make it even more useful. This guide will explain those features and
+  show some of their use cases.
 tags:
   - Grade 2
   - Trigger Concepts
+math: true
+contributors:
+  - komatic5
+  - theibra
 ---
-
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 - Spawn remapping has various properties: Abstraction, Priority, Inheritance, Recursion and Exclusivity.
 - These properties heavily affect how spawn remapping must be handled in order to best utilize it.
 - You can also use these properties to bypass certain game limitations or create helpful systems.
 
+
 {{< /callout >}}
 
-** **
+- - -
 
 # 1: Spawn Remap Properties
 
 ## Abstraction
 
-Spawn remapping applies to every type of ID, not just groups. ItemIDs, Color Channels, BlockIDs, and so on, can all be remapped. The only exception is GradientIDs, as of Update 2.206.
+Spawn remapping applies to every type of ID, not just groups. ItemIDs, Color Channels, BlockIDs, and so on, can all be remapped. As of Update 2.208, the are a few exceptions to this, which you can check [here](https://uhdanke.github.io/gd_docs/bugs/spawn_triggers#triggers-that-are-not-remappable-or-not-fully-remappable). 
 
 However for this to work, each ID type must have a unique OriginalID when remapping. In the example below, I could use Color Channel 1, Group 2, and BlockID 3, but not both Color Channel 1 and BlockID 1.
 
@@ -41,17 +47,17 @@ If you use multiple remaps with the same OriginalID, only the highest NewID will
 
 ## Inheritance
 
-Triggers activated by a Spawn Trigger can inherit the remapped IDs. This means that triggers activated by a remapped trigger will also be remapped, including other Spawn Remap triggers.
+Triggers activated by a Spawn Trigger can inherit the remapped IDs. This means that **triggers activated by a remapped trigger will also be remapped**, including other Spawn Remap triggers.
 
-However, this has some issues with the Instant Collision trigger, which will be explained in the Bugs section.
+For example, in the image below, the Move trigger inherits from the Time trigger, which inherits from the Collision trigger, which finally inherits from the Spawn trigger. Therefore, all the ID remaps made by the Spawn trigger will apply to every trigger in the chain.
 
 {{< img src="https://lh3.googleusercontent.com/d/1R4-ees4r5-XHNGdmPptb6473r34nL-Pl" >}}
 
 ## Recursion
 
-You can remap the OriginalID and NewID in a spawn remap because of Remap Inheritance. This means your spawn remaps can carry over to other remaps.
+You can remap the OriginalID and NewID in a spawn remap because of Remap Inheritance. This means your **spawn remaps can carry over to other remaps**.
 
-For example, a spawn trigger that remaps ID A to B and ID C to D, and activates a spawn trigger which remaps A to C, is the equivalent of remapping B to D.
+For example, a spawn trigger that remaps ID $A$ to $B$ and ID $C$ to $D$, and activates a spawn trigger which remaps $A$ to $C$, is the equivalent of remapping $B$ to $D$.
 
 ## Non-Exclusivity across triggers
 
@@ -61,21 +67,23 @@ However, since Stop triggers and Edit Advanced Follow cannot be remapped when st
 
 {{< img src="https://lh3.googleusercontent.com/d/1LJRo4PzIbnqBSo-hOgozW8b9HIC-pqdu" >}}
 
-For stop triggers to know which instances they should affect, use ControlIDs instead of GroupIDs. Select the triggers you want to stop, then go to Edit Group -> Extra2 and choose a ControlID. Now enable “Use ControlID” in the stop trigger and type in the value in the “groupID” text box.
+**For stop triggers to know which instances they should affect, use ControlIDs instead of GroupIDs**. Select the triggers you want to stop, then go to Edit Group -> Extra2 and choose a ControlID. Now enable “Use ControlID” in the stop trigger and type in the value in the “groupID” text box.
 
-Make sure for each new spawn trigger you also remap the ControlIDs used. Also note that ControlIDs can go up to 2^31 and aren’t limited by the 9999 ID limit.
+Make sure for each new spawn trigger you also remap the ControlIDs used. Also note that ControlIDs can go up to $2^{31}$ and aren’t limited by the 9999 ID limit.
 
 ## Exclusivity within Recursion
 
-Remap Recursion has another property which can lead to very undesirable outcomes. When remapping ID A to B with a spawn trigger, and using this trigger to activate another spawn trigger that remaps A to C, the game tries to create two different instances of the remap. Both remaps cannot be executed at the same time or the game will crash.
+Remap Recursion has another property which can lead to very undesirable outcomes. When remapping ID $A$ to $B$ with a spawn trigger, and using this trigger to activate another spawn trigger that remaps $A$ to $C$, the game tries to create two different instances of the remap. Both remaps cannot be executed at the same time or the game will crash.
 
 Reset Remap is a solution to this. It effectively resets any recursion in the spawn triggers, which overrides the first instance and prevents a crash. In this example, we’ll enable it for the second spawn trigger.
 
 # 2: Bugs
 
-As of 2.206, remapping doesn’t work with some specific triggers. This part has some fixes and workarounds you should consider.
-
 ## Instant Collision
+
+{{< callout context="caution" title="Note" icon="outline/info-circle" >}}
+Starting from update 2.208, Instant Collision remaps behave as intended. This subsection will remain here for legacy reasons.
+{{< /callout >}}
 
 **TrueID** can be remapped, but remapping does not travel through it via Inheritance.
 **FalseID** can neither be remapped nor does it allow remapping to travel through it.
@@ -84,7 +92,7 @@ You can replace your Instant Collision trigger with the following setup, using I
 
 {{< img src="https://lh3.googleusercontent.com/d/1_lo12a-KD5pc4N1Ou8tUI3d0YPxPQoGi" >}}
 
-The collision condition is stored in an ItemID - ID 3 in this case. Each collision trigger constantly checks for BlockIDs 1 and 2 to enter or exit the collision, and activates their respective Pickup trigger to override ItemID 3 - 1 if the blocks are touching, 0 if not.
+The collision condition is stored in an ItemID (ID 3 in this case). Each collision trigger constantly checks for BlockIDs 1 and 2 to enter or exit the collision, and activates their respective Pickup trigger to override ItemID 3 (1 if the blocks are touching, 0 if not).
 
 {{< img src="https://lh3.googleusercontent.com/d/1HC33XPd5P1Udr5lfqbHrbxxA8Kiv-OXr" >}}
 
@@ -149,3 +157,8 @@ This setup can also use ItemIDs instead. When you want to pulse the selected blo
 ## Dynamic Groups
 
 Spawn remaps can also be used to make Dynamic Groups. This is a setup made by @koma5 that lets you choose a target group for a trigger based on an ItemID’s value. You can read more about it in the [Making Data Structures](https://docs.google.com/document/d/17OohiVbf_m8fiL_1_FSl0Yn5NjBrE7dBMNRALGljp54/edit?usp=sharing) guide.
+
+# Additional Information
+
+- [HDanke's GD Editor Docs - Spawn Remapping](<https://uhdanke.github.io/gd_docs/triggers/spawn/spawn_remapping>)
+- [HDanke's GD Editor Docs - Spawn Trigger bugs](<https://uhdanke.github.io/gd_docs/triggers/spawn/spawn_remapping>)
