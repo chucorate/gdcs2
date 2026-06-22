@@ -76,6 +76,8 @@ To create a 2-point perspective grid in Geometry Dash, do the following:
 Draw a line from the RVP through that intersection, connecting it to the original left line.
 5. Use the rectangle multiplication technique described in Perspective 3 to create more of these squares as needed.
 
+{{< youtube r2Ligzs8v6o >}}
+
 {{< callout context="note" title="Other Perspective Grids" icon="outline/info-circle" >}}
 - While 3-point grids are arguably the most dynamic, they are quite difficult to accurately create and can look odd if the horizon line is not near the bottom or top of the picture plane. 
 - Curvilinear, or 5-point, perspective grids can be seen in fisheye-lens photography and are usually not needed in Geometry Dash. However, if you would like to make one, the **Bulge** shader can easily recreate the effect.
@@ -87,7 +89,7 @@ Draw a line from the RVP through that intersection, connecting it to the origina
 
 In Geometry Dash, the scale tool makes the process of transferring scale in perspective extremely easy. Simply place a point on the horizon in the direction you’d like to scale, apply “Group Parent” in the Edit Group interface, and scale as much as you like as long as you adjust your form to fit the viewing angle. You may need another point if you’d like to scale in a different direction for more precise positioning.
 
-However, when attempting to translate a form across multiple axes at the same time in two-point perspective, you may run into a distortion in the form due to it passing over a vanishing point. To avoid this, simply translate it on the x-axis of the grid with the one vanishing point, then translate it on the z-axis with the other.
+However, when attempting to translate a form across multiple axes at the same time, you may run into a distortion in the form due to it passing over a vanishing point. To avoid this, simply translate it on one axis of the grid, then the other, as opposed to doing both at once.
 
 Now, what if your form is elevated or in the ground? For this kind of positioning, there are a few extra steps in order to make the perspective convincing.
 
@@ -107,3 +109,4 @@ Now, what if your form is elevated or in the ground? For this kind of positionin
 
 # 3. Practical Use Cases
 
+i Fin Later
