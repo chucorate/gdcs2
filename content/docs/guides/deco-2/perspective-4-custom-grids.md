@@ -1,17 +1,17 @@
 ---
 draft: false
+authors:
+  - sethlai
 title: Perspective 4 (Custom Grids)
 weight: 8230
 date: 2026-06-22
+contributors:
+  - sethlai
 description: Equipped with the perspective tools from the previous guides, you
   are now able to construct custom perspective grids, which you can use for
   various complex drawings. This guide will cover the techniques needed in order
   to accurately construct these grids, along with other crucial skills needed to
   use them.
-authors:
-  - sethlai
-contributors:
-  - sethlai
 tags:
   - Grade 2
   - Perspective
@@ -67,11 +67,11 @@ To create a 2-point perspective grid in Geometry Dash, do the following:
 
 {{< img-grid >}}
 
-{{< img src="https://lh3.googleusercontent.com/d/1vDg1rTr8Wcml7eghyyoQzVy4sMVdm6BE" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1BlvkM3xyGnAVytj-2jcerqvPgFiXRG1_" >}}
 
-{{< img src="https://lh3.googleusercontent.com/d/1R-C63nVrbKMRbJPro6JV6xKEpZtpruBd" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1Sm2RYGvLxeoHLTVUFQwS_PBcxNUY_ENM" >}}
 
-{{< img src="https://lh3.googleusercontent.com/d/1xyiMrx-253hpd9nd7aTeUlej4_dqRPOk" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1ZQJek2p7JPH5a-q41yYl8Fh5SZvHcI1-" >}}
 
 {{< /img-grid >}}
 
