@@ -8,6 +8,10 @@ description: Equipped with the perspective tools from the previous guides, you
   various complex drawings. This guide will cover the techniques needed in order
   to accurately construct these grids, along with other crucial skills needed to
   use them.
+authors:
+  - sethlai
+contributors:
+  - sethlai
 tags:
   - Grade 2
   - Perspective
